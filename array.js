@@ -51,6 +51,9 @@ languages.splice(1, 0, 'Dart2')
 
 console.log('Result:' + languages)
 
-//concat: dao nguoc
+//concat: noi
 //slicing
 console.log(languages.slice(-2,-1))
+
+console.log([1, 2].toString().concat([3, 4].toString(), ' - '));
+

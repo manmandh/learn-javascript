@@ -9,6 +9,7 @@ console.log(`My name is ${firstName} ${lastName}`)
 
 var myString = 'Hoc JS tai JS JS JS JSTrash'
 console.log(myString.indexOf('tai'))
+
 // console.log(myString.lastIndexOf('tai', 7))
 // console.log(myString.search('tai', 7))
 console.log(myString.slice(4,6))
@@ -17,3 +18,14 @@ console.log(myString.replace(/JS/g, 'JavaScript'))
 //trim-xoa space
 //toUppercase, toLowercase, split method
 //search ko ho tro `7`, chi lay index dau tien
+
+function getFirstElement (F8){
+    return F8.slice().shift();
+}//tra ve ptu dau tien trong mang
+
+//vi du su dung
+var animals = ['Monkey', 'Tiger', 'Elephant'];
+var result = getFirstElement(animals);
+
+console.log(result); // Expected: "Monkey"
+console.log(animals); // Expected: ['Monkey', 'Tiger', 'Elephant']

@@ -12,4 +12,9 @@ console.log(isNaN(result))//true
 console.log(typeof age.toString())//18-string den- xanh number
 console.log(PI.toFixed(1))//1 so thap phan
 
+function isNumber(value){
+    return typeof value === 'number' && !isNaN(value)
+}//de dam bao NaN k phai 1 so, vi phat sinh gay ra loi thanh true
+
+console.log(isNumber(NaN))
 

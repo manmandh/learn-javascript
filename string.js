@@ -19,8 +19,8 @@ console.log(myString.replace(/JS/g, 'JavaScript'))
 //toUppercase, toLowercase, split method
 //search ko ho tro `7`, chi lay index dau tien
 
-function getFirstElement (F8){
-    return F8.slice().shift();
+function getFirstElement (Hoa){
+    return Hoa.slice().shift();
 }//tra ve ptu dau tien trong mang
 
 //vi du su dung

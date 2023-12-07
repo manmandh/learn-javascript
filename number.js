@@ -18,3 +18,4 @@ function isNumber(value){
 
 console.log(isNumber(NaN))
 
+
